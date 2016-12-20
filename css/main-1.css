@@ -1,0 +1,67 @@
+body, html{
+	width: 100%;
+	height: 100%;
+}
+/*fondo de la foto grupal*/
+.foto-grupal{
+	background-size: 100%;
+	height: 100%;
+	background-image: url("../img/grupal.jpg");
+}
+/*boton sumate*/
+
+.boton{
+	background: #FC8A03;
+	width: 80px;
+	margin-top:2%;
+	position: fixed;
+}
+.boton p{
+	padding: 15%;
+}
+/*navegadores*/
+a{
+	text-decoration: none;
+	color: black;
+}
+
+nav a{
+	display: inline-block;
+	color: black;
+	text-transform: uppercase;
+	padding-top: 9%;
+	padding: 2%
+}
+nav a:hover{
+	color: #fff;
+}
+/*logo de laboratoria*/
+.logo img{
+	width: 110%;
+	height: 70%;
+}
+.logo{
+	padding-top: 25%
+}
+/*iganes finales*/
+article img{
+	width: 100%;
+	padding-top: 25%;
+}
+article p{
+	border-bottom-style: inset;
+	border-bottom-width: 2px;
+	border-color: black;
+}
+article{
+	padding-bottom: 6%;
+}
+/*parte final de la pagina*/
+footer{
+	padding: 20px;
+	color: #fff;
+	background: #333;
+	text-align: left;
+	font-family: Arial;
+	line-height: normal;
+}
